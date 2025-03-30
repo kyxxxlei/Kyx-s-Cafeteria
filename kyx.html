@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyx's Cafeteria</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Light pink background */
+        }
+
+        header {
+            background-image: url('coffeeimage.jpeg'); /*coffeeimage.jpeg*/
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-family: 'Brush Script MT', cursive; /* Fancy font */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            background-color: #ffb6c1; /* Pink navigation bar */
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #ff69b4; /* Hot pink button */
+        }
+
+        nav a:hover {
+            background-color: #d87093; /* Darker pink on hover */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item button {
+            background-color: #ff69b4;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .menu-item button:hover {
+            background-color: #d87093;
+        }
+
+        footer {
+            background-color: #ffb6c1;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kyx's Cafeteria</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#address">Address</a>
+        <a href="#reservation">Online Reservation</a>
+        <a href="#payment">Payment Methods</a>
+        <a href="#sales">Sales</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Kyx's Cafeteria!</h2>
+        <p>Welcome! Enjoy the warm aroma of home-style food and coffee. We're here to serve you delicious meals made with care, in a friendly, inviting space. Relax, enjoy, and feel at home.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <h3>Beverages</h3>
+        <div class="menu-item">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg?quality=90&webp=true&resize=375,341" alt="Iced Latte">
+            <p>Iced Latte</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://qualitexglobal.com/wp-content/uploads/2024/12/image-58.png" alt="Americano">
+            <p>Americano</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcv2DnfZNX0vB-EyC-B67l6AacSE0LPfBixg&s">
+            <p>Iced Americano</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw2ca0aa66/images/recipe-Images/cafe-latte1-recipe.jpg?sw=1200&sh=1200&sm=fit" alt="Latte">
+            <p>Latte</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw2ca0aa66/images/recipe-Images/cafe-latte1-recipe.jpg?sw=1200&sh=1200&sm=fit" alt="Java Chip">
+            <p>Java Chip</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg" alt="Espresso">
+            <p>Espresso</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3sOu14ghKYw-APsi8LYKBXlbDunx5OPRMug&s" alt="Milk">
+            <p>Milk</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.priorlakemn.gov/home/showpublishedimage/1078/637384528077200000" alt="Water">
+            <p>Water</p>
+            <button>Select</button>
+        </div>
+
+        <h3>Pastries</h3>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTDuN4gZ3qDugg9B7x8aBaWwykUJCTuAfxw&s" alt="Croissant">
+            <p>Croissant</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/D9po8nbJ09H8YjW_cFcpAQH7Q5I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-easy-pain-au-chocolat-recipe-1374869-hero-C-e1d7f1e947094ab39c3ab063039202e0.jpg">
+            <p>Pain au Chocolat</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="http://butternutbakeryblog.com/wp-content/uploads/2018/07/Cookie-Butter-Blondies-Stacked-683x1024.jpg">
+            <p>Cookie Butter Blondie</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://jipan.com.ph/cdn/shop/products/minidonuts.png?v=1597895775" alt="Donut">
+            <p>Donut</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7dJ5zkKGW2AeAX_LSwzDUlkZ9UMtSVjJsmg&s" alt="Glazed Donut">
+            <p>Glazed Donut</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-1KQz9a2SPSuCy1S2ZArLGoEydlh_6LiaQ&s" alt="Pasta">
+            <p>Pasta</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://littlespoonfarm.com/wp-content/uploads/2024/07/Pasta-Carbonara-Recipe.jpg" alt="Carbonara">
+            <p>Carbonara</p>
+            <button>Select</button>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.recipetineats.com/tachyon/2019/02/Pesto-Pasta_2-1.jpg?resize=900%2C1260&zoom=0.72" alt="Pesto Pasta">
+            <p>Pesto Pasta</p>
+            <button>Select</button>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: kyxscafeteria@gmail.com</p>
+        <p>Phone: +63 9384798289</p>
+    </section>
+
+    <section id="address">
+        <h2>Address</h2>
+        <p>123 Burnham, Baguio City</p>
+    </section>
+
+    <section id="reservation">
+        </section>
+
+    <section id="payment">
+<style>
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+fieldset{
+    margin-bottom: 15px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Reservation Form</h2>
+
+<form action="/submit_reservation" method="post">
+
+  <fieldset>
+    <legend>Personal Information:</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone">
+  </fieldset>
+
+  <fieldset>
+    <legend>Reservation Details:</legend>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="guests">Number of Guests:</label>
+    <select id="guests" name="guests" required>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+
+    <label for="occasion">Occasion (Optional):</label>
+    <input type="text" id="occasion" name="occasion">
+
+    <label for="comments">Special Requests/Comments:</label>
+    <textarea id="comments" name="comments" rows="4"></textarea>
+  </fieldset>
+  <input type="submit" value="Submit Reservation">
+
+</form>
+        </section>
+
+    <section id="sales">
+    <title>Select Payment Method</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<h2>Select Payment Method</h2>
+
+<form action="/process_payment" method="post">
+  <label for="payment_method">Payment Method:</label>
+  <select id="payment_method" name="payment_method" required>
+    <option value="">-- Select a method --</option>
+    <option value="credit_card">Credit Card</option>
+    <option value="paypal">PayPal</option>
+    <option value="bank_transfer">Bank Transfer</option>
+    <option value="cash_on_delivery">Cash on Delivery</option>
+    <option value="google_pay">Google Pay</option>
+    <option value="apple_pay">Apple Pay</option>
+  </select>
+
+  <input type="submit" value="Continue to Payment">
+</form>
+    </section>
+<div style="text-align: center;">
+  <button style="background-color: #4CAF50;
+                 color: white;
+                 padding: 10px 20px;
+                 border: none;
+                 border-radius: 5px;
+                 cursor: pointer;
+                 font-size: 16px;">
+    Place Order
+  </button>
+</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kyx's Cafeteria</p>
+    </footer>
+
+
+</body>
+</html>
